@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Crispy Curry Club Mitte",
+    "type": "ghost_kitchen",
+    "logo_url": "https://picsum.photos/seed/partner-logo-1/256/256",
+    "cover_photo_url": "https://picsum.photos/seed/partner-cover-1/1200/400"
+  },
+  {
+    "id": 2,
+    "name": "Electric Corner Wedding",
+    "type": "cafe",
+    "logo_url": "https://picsum.photos/seed/partner-logo-2/256/256",
+    "cover_photo_url": "https://picsum.photos/seed/partner-cover-2/1200/400"
+  },
+  {
+    "id": 3,
+    "name": "Electric Kitchen Charlotten",
+    "type": "cafe",
+    "logo_url": "https://picsum.photos/seed/partner-logo-3/256/256",
+    "cover_photo_url": "https://picsum.photos/seed/partner-cover-3/1200/400"
+  },
+  {
+    "id": 4,
+    "name": "Fresh Kitchen Schöne",
+    "type": "cafe",
+    "logo_url": "https://picsum.photos/seed/partner-logo-4/256/256",
+    "cover_photo_url": "https://picsum.photos/seed/partner-cover-4/1200/400"
+  },
+  {
+    "id": 5,
+    "name": "Nordic Haus Neukölln",
+    "type": "cafe",
+    "logo_url": "https://picsum.photos/seed/partner-logo-5/256/256",
+    "cover_photo_url": "https://picsum.photos/seed/partner-cover-5/1200/400"
+  },
+  {
+    "id": 6,
+    "name": "Spicy Corner Charlotten",
+    "type": "restaurant",
+    "logo_url": "https://picsum.photos/seed/partner-logo-6/256/256",
+    "cover_photo_url": "https://picsum.photos/seed/partner-cover-6/1200/400"
+  },
+  {
+    "id": 7,
+    "name": "Spicy Sushi Bar Schöne",
+    "type": "cafe",
+    "logo_url": "https://picsum.photos/seed/partner-logo-7/256/256",
+    "cover_photo_url": "https://picsum.photos/seed/partner-cover-7/1200/400"
+  },
+  {
+    "id": 8,
+    "name": "Sunny Haus Pankow",
+    "type": "bakery",
+    "logo_url": "https://picsum.photos/seed/partner-logo-8/256/256",
+    "cover_photo_url": "https://picsum.photos/seed/partner-cover-8/1200/400"
+  },
+  {
+    "id": 9,
+    "name": "Urban Kiez Fhain",
+    "type": "cafe",
+    "logo_url": "https://picsum.photos/seed/partner-logo-9/256/256",
+    "cover_photo_url": "https://picsum.photos/seed/partner-cover-9/1200/400"
+  },
+  {
+    "id": 10,
+    "name": "Urban Wok Kreuzberg",
+    "type": "cafe",
+    "logo_url": "https://picsum.photos/seed/partner-logo-10/256/256",
+    "cover_photo_url": "https://picsum.photos/seed/partner-cover-10/1200/400"
+  }
+]

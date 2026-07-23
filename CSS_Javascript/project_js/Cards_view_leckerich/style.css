@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+.title {
+  text-align: center;
+  margin: 24px 0;
+}
+
+/* Scroll container */
+.cards-wrapper {
+  overflow-x: auto;
+  padding: 10px 0 20px;
+}
+
+.cards-wrapper::-webkit-scrollbar {
+  height: 6px;
+}
+.cards-wrapper::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+/* Cards row */
+.cards {
+  display: flex;
+  gap: 16px;
+  padding: 0 16px;
+  width: max-content;
+}
+
+/* Slim card */
+.card {
+  background: #fff;
+  border-radius: 10px;
+  width: 220px;               /* NOT FAT */
+  overflow: hidden;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+  transition: transform 0.25s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card img.cover {
+  width: 100%;
+  height: 120px;              /* shorter height */
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 12px;
+}
+
+.logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+
+.card-body h3 {
+  font-size: 16px;
+  margin: 0 0 4px;
+}
+
+.card-body p {
+  font-size: 13px;
+  color: #666;
+  margin: 0;
+}
+
+.card-body button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  background: #2bcbba;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.card-body button:hover {
+  background: #16a085;
+}
+
+/* Mobile tweaks */
+@media (max-width: 480px) {
+  .card {
+    width: 190px;
+  }
+}
+
+.cards-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.nav-btn {
+  background: #2bcbba;
+  border: none;
+  color: #fff;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+}
+
+.nav-btn:hover {
+  background: #16a085;
+}
+
+.cards-wrapper {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  flex: 1;
+  cursor: grab;
+}
+
+.cards-wrapper:active {
+  cursor: grabbing;
+}
+
+/* Hide scrollbar (still scrollable) */
+.cards-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-btn {
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.nav-btn.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}

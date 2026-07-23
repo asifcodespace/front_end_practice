@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SrcDrive</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <style>
+        /* Keeping your custom button effect and theme styles */
+        .waterflow-btn::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background: #469060;
+            transition: all 0.3s ease;
+        }
+        .waterflow-btn:hover::after {
+            width: 100%;
+            left: 0;
+        }
+    </style>
+</head>
+<body class="bg-white text-slate-700">
+    <div id="root" class="max-w-screen-2xl mx-auto">
+        <nav class="navbar backdrop-blur-2xl max-w-screen-2xl fixed z-50 flex justify-between p-4 w-full">
+            <div class="flex items-center">
+                <a class="text-xl font-bold flex gap-0 items-center">
+                    <span class="text-[#469060]">Src</span><span class="text-[#475569]">Drive</span>
+                </a>
+            </div>
+            <div class="hidden lg:flex gap-6">
+                <a href="#home" class="font-semibold hover:text-[#469060] transition">Home</a>
+                <a href="#services" class="font-semibold hover:text-[#469060] transition">Services</a>
+                <a href="#expertise" class="font-semibold hover:text-[#469060] transition">Expertise</a>
+                <a href="#contact" class="font-semibold hover:text-[#469060] transition">Contact</a>
+            </div>
+        </nav>
+
+        <div class="space-y-16 pt-20">
+            <section id="home" data-aos="fade-down" class="flex flex-col lg:flex-row bg-gradient-to-r from-[#469060]/10 to-slate-100 p-8 rounded-xl items-center">
+                <div class="lg:w-1/2 text-4xl font-bold space-y-2">
+                    <p><span class="text-[#469060]">Source</span> Our Talents</p>
+                    <p><span class="text-[#475569]">Drive</span> Your Business</p>
+                </div>
+                <div class="lg:w-1/2 mt-8 lg:mt-0">
+                    <div class="bg-slate-300 h-64 w-full rounded-lg flex items-center justify-center text-slate-500">
+                        [Main Banner Image]
+                    </div>
+                </div>
+            </section>
+
+            <section id="services" data-aos="fade-up" class="px-8">
+                <h2 class="text-4xl font-medium text-center text-[#469060] mb-12">What We Can Do For You</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="p-6 rounded-xl bg-slate-50 border border-slate-100 hover:shadow-lg transition">
+                        <h3 class="text-xl font-semibold mb-2">Hire Top Talents</h3>
+                        <p class="text-sm text-slate-500">Access top-tier talent in data science, engineering, and analytics at competitive rates.</p>
+                    </div>
+                    <div class="p-6 rounded-xl bg-slate-50 border border-slate-100 hover:shadow-lg transition">
+                        <h3 class="text-xl font-semibold mb-2">Data Engineering</h3>
+                        <p class="text-sm text-slate-500">End-to-end services including ETL, warehousing, and data governance.</p>
+                    </div>
+                    <div class="p-6 rounded-xl bg-slate-50 border border-slate-100 hover:shadow-lg transition">
+                        <h3 class="text-xl font-semibold mb-2">Machine Learning & AI</h3>
+                        <p class="text-sm text-slate-500">Harness intelligent algorithms to drive innovation across industries.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="bg-slate-900 text-white p-12 rounded-t-3xl">
+                <div class="text-center mb-10">
+                    <h2 class="text-3xl font-bold uppercase text-[#469060]">Contact Us</h2>
+                </div>
+                <div class="flex flex-col lg:flex-row gap-12 justify-center items-center">
+                    <div class="space-y-4 text-center">
+                        <p class="font-bold text-xl">contact@srcdrive.com</p>
+                        <p class="text-[#469060]">+8801672868711</p>
+                    </div>
+                </div>
+                <footer class="mt-20 border-t border-slate-800 pt-8 text-center text-sm text-slate-500">
+                    Copyright © 2026 - All rights reserved
+                </footer>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+    </script>
+</body>
+</html>
